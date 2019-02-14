@@ -41,8 +41,11 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a role="button" class="btn-sm bg-warning btn-block" href="#reserve">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -57,7 +60,7 @@
                 <div class="media">
                     <img src="img/uthappizza.png" class="d-flex mr-3 img-thumbnail align-self-center" alt="Uthappizza">
                     <div class="media-body">
-                        <h2class="mt-0">
+                        <h2 class="mt-0">
                             Uthappizza 
                             <span class="badge badge-danger">HOT</span>
                             <span class="badge badge-pill badge-secondary">$4.99</span>
@@ -75,11 +78,11 @@
             </div>
             <div class="col col-sm col-md">
                 <div class="media">
-                    <img src="img/buffet.png" class = "d-flex mr-3 img-thumbnail align-self-center" alt = "Weekend Grand Buffet">
                     <div class="media-body">
-                        <h2 class="mt-0">Weekend Grand Buffet</h2>
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger"> NEW</span> </h2>
                         <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>            
                     </div>
+                    <img src="img/buffet.png" class = "d-flex mr-3 img-thumbnail align-self-center" alt = "Weekend Grand Buffet">
                 </div>
                 </div>
         </div>
@@ -97,7 +100,56 @@
                         <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>           
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-sm-2"></div>
+            <div class="col-12 col-sm-8 align-center">
+                <div class="card" id="reserve">
+                    <div class="card-header text-white bg-warning"><h2>Reserve a Table</h2></div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                
+                                    <div class="form-inline">
+                                        <div class="col-12 col-sm-2">Number of Guests</div>
+                                        <div class="col-12 col-sm-10">
+                                            <div class="radio ">
+                                                <input type="radio" name="optradio" >1
+                                            
+                                                <input type="radio" name="optradio" >2
+                                        
+                                                <input type="radio" name="optradio" >3
+                                        
+                                                <input type="radio" name="optradio" >4
+                                        
+                                                <input type="radio" name="optradio" >5
+                                        
+                                                <input type="radio" name="optradio" >6
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-inline">
+                                        <div class="col-12 col-sm-2">Date and Time</div>
+                                        <div class="col-12 col-sm-5">
+                                            <input type="text" class="form-control" id="date" placeholder="Date">
+                                        </div>
+                                        <div class="col-12 col-sm-5">
+                                            <input type="text" class="form-control" id="date" placeholder="Time">
+                                        </div>
+                                    </div>
+                                    <div class="form-inline">
+                                        <div class="col-sm-2">&nbsp</div>
+                                        <div class="col-sm-10"><button type="button" class="btn btn-primary">Reserve</button></div>
+                                    </div>
+                                
+                            </div>
+                        </form>
+                    </div>
                 </div>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
 
